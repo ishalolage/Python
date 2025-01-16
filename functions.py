@@ -23,3 +23,5 @@ def average(a=2,b=2):
 average()
 average(3,3)
 average(5)  #a=5 and b= 2 is by dafault
+
+
