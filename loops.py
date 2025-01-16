@@ -6,7 +6,7 @@ name ="isha"
 for i in name:
     print(i)
     if (i=="h"):
-        print("it is something special")
+        print("It is something special")
 
    #for lists
 colors=["red","yellow","pink","white"] 

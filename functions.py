@@ -17,11 +17,18 @@
 
 
 # function arguments
-def average(a=2,b=2):
-   print("the average is", (a+b)/2)
+# def average(a=2,b=2):
+#    print("the average is", (a+b)/2)
 
-average()
-average(3,3)
-average(5)  #a=5 and b= 2 is by dafault
+# average()
+# average(3,3)
+# average(5)  #a=5 and b= 2 is by dafault
 
+def average(*numbers):
+   print(type(numbers))
+   sum=0
+   for i in numbers:
+      sum=sum+i
+   print("average is:", sum/len(numbers))   
+   
 
