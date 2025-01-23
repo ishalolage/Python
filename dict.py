@@ -11,3 +11,7 @@ print(dict.keys())
 print(dict.values())
 for key in dict:
     print(key)
+
+
+
+    
