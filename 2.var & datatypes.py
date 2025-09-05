@@ -14,3 +14,4 @@ print("the type of d is" , type(f))
 # operator
 print(2**5) #5 times 2
 
+# variables-for storing data

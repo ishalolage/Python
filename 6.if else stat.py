@@ -1,5 +1,5 @@
     #if else statement                   conditional operators - [>,<,>=,<=,==,!=]
-a= int(input("enter your age"))
+a= int(input("enter your age-"))
 print("your age is: ",a)
 if(a>18):
     print("u can drive")
@@ -20,7 +20,7 @@ else:
     print("u cannot drive")
 print("i am finally happy")   
 
-      #nested statement 
+      #nested statement   -we can use if,elif,if-else statement inside other
 num=int(input("enter your number"))
 if(num<0):
     print("number is negative") 

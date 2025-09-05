@@ -1,4 +1,4 @@
-                          #for loop
+                          #for loop -repeating
 
  #for strings iteration
 
@@ -17,19 +17,18 @@ for color in colors:
 
 for k in range(5): #from 0 to 4 
     print(k+1)   # 1 to 5
-for k in range(2,9):   # 1 to 8
+for k in range(2,9):   # 2 to 8
     print(k)
 for k in range (1,13,3):
     print(k)
-
-                             #while loop
+                         #while loop- execute statement while the condition is true 
 
 i=0
 while(i<=5):
     print(i)
     i=i+1
-
 print("we are done")
+
 i=int(input("enter the number"))
 while(i<=55):
     i=int(input("enter the number"))
@@ -37,7 +36,7 @@ while(i<=55):
 
 print("we are done")
 
-count=5
+count=5         #decrementing while loop
 while(count>0):
     print(count)
     count=count-1

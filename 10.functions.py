@@ -12,7 +12,7 @@ def isgreater(a,b):
     print("second number is greater or equal")    
 
 def islesser(a,b):
-   pass
+   pass       #write after
 
 
 
@@ -22,7 +22,8 @@ def average(a=2,b=2):
 
 average()
 average(3,3)
-average(5)  #a=5 and b= 2 is by dafault
+average(5)  #a=5 and b= 2 is by dafault 
+average(a=1,b=9)
 
 
 def average(*numbers):
@@ -33,3 +34,10 @@ def average(*numbers):
    print("average is:", sum/len(numbers))   
    
 
+
+
+# how to use functions
+a=2
+b=1
+calculategmean(a, b) 
+calculategmean(3,6) 
