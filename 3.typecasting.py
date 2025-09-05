@@ -8,3 +8,6 @@ i= "2"
 p= "1.2"
 print (i+p)  # only stick both numbers(string) to each other
 
+num="12"
+a=(int(num))
+print (type(a))

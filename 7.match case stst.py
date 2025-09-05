@@ -18,4 +18,13 @@ match x:
         print(x)
 
     
+x= int(input("enter the number u want"))
+match x:
+    case 1:
+        print("good")
+    case 2:
+        print("nice")
+    case _:
+        print("back luck")
+
 

@@ -4,22 +4,22 @@ for i in range(12):
         break 
     # print("we are out of loop")
 
-for i in range(12):         #good for reference 
-    if(i==10):
+for i in range(15):         #good for reference 
+    if(i==9):
         break
     print("5 X", i+1, "=", 5 *(i+1))
     
 print("we are out of loop")
 
-for i in range(12):
-    if(i==10):
-        print("skip the iteration")
-        continue                #jump on next iteration
-    print("5 *",i, "=",5*i)
+# for i in range(12):
+#     if(i==10):
+#         print("skip the iteration")
+#         continue                #jump on next iteration
+#     print("5 *",i, "=",5*i)
 
  
 
-#  leave -loop  (break)
-# leave -iteration (continue)
+# #  leave -loop  (break)
+# # leave -iteration (continue)
 
 
