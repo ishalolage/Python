@@ -64,11 +64,20 @@ print(str4.istitle()) #first letter capital-T or F
 # print(str5.isspace())
 
 
+text = "   hello world  "
+print(text.strip())  # Output: "hello world"
+print(text.lstrip()) # Output: "hello world  "  #towards the left
+print(text.rstrip()) # Output: "  hello world".   #towards the right
 
+text = "Python is fun"
+print(text.find("is"))   # Output: 7
+print(text.replace("fun", "awesome"))  # Output: "Python is awesome"
 
-
-
-
+text = "Python123"
+print(text.isalpha())  # Output: False   #alphabet only
+print(text.isdigit())  # Output: False   #digits only
+print(text.isalnum())  # Output: True      #alphanumeric
+print(text.isspace())  # Output: False      #whitespace only
 
 
 
